@@ -20,15 +20,36 @@ Single HTML file. Runs in the browser with no build step, no server, no tracking
 - Not financial advice. A point-in-time estimate from the figures you enter
 - Not a tracker. Nothing is saved between sessions, by design
 
-## Use it
+## Use
 
 Open the hosted page: https://0xelitesystem.github.io/net-worth-snapshot/
 
 Or download `index.html` and open it in any browser. It works offline.
 
+1. Enter the current value of each asset category.
+2. Enter what you owe in each liability category.
+3. Read net worth (assets minus total owed) and the proportional bars, which update as you type.
+
+## Why this exists
+
+Net worth apps usually want a bank login or an account before they total anything. This is one HTML file that adds up the figures you type, in your browser, with no tracking and nothing sent or kept. MIT licensed, so you can read every line or fork it.
+
 ## Privacy
 
-Everything runs client-side. No analytics, no cookies, no network calls, no local storage.
+Everything runs client-side. No analytics, no cookies, no network calls, no local storage of anything you enter. The only thing the page writes to your browser is your light or dark theme choice, saved in localStorage under the key `theme` when you press the theme button, so the page opens in the same theme next time. Clear site data to remove it.
+
+## Run locally
+
+```
+git clone https://github.com/0xelitesystem/net-worth-snapshot
+cd net-worth-snapshot
+```
+
+Then open `index.html` in any browser. Or serve the folder with `python -m http.server` and visit http://localhost:8000.
+
+## Build
+
+No build step. The whole tool is one file, `index.html`, with its CSS and JavaScript inline.
 
 ## Related
 
