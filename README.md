@@ -53,7 +53,7 @@ No build step. The whole tool is one file, `index.html`, with its CSS and JavaSc
 
 ## Related
 
-- [savings-goal-planner](https://github.com/0xelitesystem/savings-goal-planner)
+- [savings-goal-solver](https://github.com/0xelitesystem/savings-goal-solver)
 - [snowball-vs-avalanche-planner](https://github.com/0xelitesystem/snowball-vs-avalanche-planner)
 - [diversification-basics-reference](https://github.com/0xelitesystem/diversification-basics-reference)
 
